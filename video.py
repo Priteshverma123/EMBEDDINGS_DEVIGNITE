@@ -52,7 +52,7 @@ def facesentiment():
 
         # Overlay white rectangle with text on the frame
         texts = [
-            f"Age: {result[0]['age']}",
+            #f"Age: {result[0]['age']}",
             f"Face Confidence: {round(result[0]['face_confidence'],3)}",
             # f"Gender: {result[0]['dominant_gender']} {result[0]['gender'][result[0]['dominant_gender']]}",
             # f"Gender: {result[0]['dominant_gender']} {round(result[0]['gender'][result[0]['dominant_gender']], 3)}",
@@ -69,14 +69,13 @@ def facesentiment():
     cap.release()
     cv2.destroyAllWindows()
 
-def main():
+def app():
     # Face Analysis Application #
     # st.title("Real Time Face Emotion Detection Application")
     activities = ["Webcam Face Detection", "About"]
     choice = st.sidebar.selectbox("Select Activity", activities)
     st.sidebar.markdown(
-        """ Developed by Shrimanta Satpati    
-            Email : satpatishrimanta@gmail.com  
+        """ 
         """)
     if choice == "Webcam Face Detection":
         html_temp_home1 = """<div style="background-color:#6D7B8D;padding:10px">
@@ -104,4 +103,4 @@ def main():
         pass
 
 if __name__ == "__main__":
-    main()
+    app()

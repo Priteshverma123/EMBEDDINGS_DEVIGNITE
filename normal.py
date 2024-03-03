@@ -116,41 +116,6 @@ def app():
     with col2:
         st.write("पहचानी गई पाठ (हिन्दी):", hindi_text)
 
-    model_name = "deepset/roberta-base-squad2"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForQuestionAnswering.from_pretrained(model_name)
-
-    # Set up CUDA if available
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model.to(device)
-
-    # Streamlit UI
-    st.title("Emergency Response")
-
-    # Text input for user question
-    question = english_text
-
-    # Predefined context
-    context = "you are a well trained medical chat bot that gives emergency response system and helps users and gives honest and harmless response"
-
-    # Perform question answering immediately after the user enters a question
-    if question:
-    # Tokenize the input question and context
-        inputs = tokenizer(question, context, return_tensors="pt", padding=True, truncation=True).to(device)
-    # Perform inference
-        with torch.no_grad():
-            outputs = model(**inputs)
-    # Get the start and end indices of the answer
-        start_index = torch.argmax(outputs.start_logits, dim=1).item()
-        end_index = torch.argmax(outputs.end_logits, dim=1).item()
-    # Decode the answer from token IDs
-        answers1 = tokenizer.decode(inputs["input_ids"][0][start_index:end_index+1])
-        st.write(answers1)
-    else:
-            st.info("Please enter a question.")
-
-
-
 
 #### emotion evaluation 
             
@@ -316,6 +281,40 @@ def app():
 
             else:
                 st.write("No text has been submitted!")
+####LLM MODEL
+
+    model_name = "deepset/roberta-base-squad2"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+
+    # Set up CUDA if available
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+
+    # Streamlit UI
+    st.title("Emergency Response")
+
+    # Text input for user question
+    question =english_text
+
+    # Predefined context
+    context = "you are a well trained medical chat bot that gives emergency response system and helps users and gives honest and harmless response"
+
+    # Perform question answering immediately after the user enters a question
+    if question:
+    # Tokenize the input question and context
+        inputs = tokenizer(question, context, return_tensors="pt", padding=True, truncation=True).to(device)
+    # Perform inference
+        with torch.no_grad():
+            outputs = model(**inputs)
+    # Get the start and end indices of the answer
+        start_index = torch.argmax(outputs.start_logits, dim=1).item()
+        end_index = torch.argmax(outputs.end_logits, dim=1).item()
+    # Decode the answer from token IDs
+        answers1 = tokenizer.decode(inputs["input_ids"][0][start_index:end_index+1],skip_special_tokens=True)
+        st.write(answers1)
+    else:
+            st.info("Please enter a question.")
                 
             
                 
