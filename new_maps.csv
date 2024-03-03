@@ -1,0 +1,76 @@
+Location Type,Name,Location,Latitude,Longitude,Contact Number
+Hospital,Seawoods General Hospital,Seawoods,19.026954,73.018352,012-345-6789
+Medical Store,Seawoods Medical Supplies,Seawoods,19.023758,73.021761,123-456-7890
+Blood Bank,Seawoods Blood Bank,Seawoods,19.030187,73.023993,234-567-8901
+Hospital,Nerul Health Center,Nerul,19.033742,73.019295,345-678-9012
+Medical Store,Nerul Pharmacy,Nerul,19.036485,73.015994,456-789-0123
+Blood Bank,Nerul Blood Bank,Nerul,19.029903,73.021693,567-890-1234
+Hospital,CBD Belapur Medical Center,CBD Belapur,19.019312,73.031457,678-901-2345
+Medical Store,CBD Belapur Medicos,CBD Belapur,19.022091,73.029876,789-012-3456
+Blood Bank,CBD Belapur Blood Bank,CBD Belapur,19.016703,73.034024,890-123-4567
+Hospital,Kalamboli General Hospital,Kalamboli,19.022386,73.112306,901-234-5678
+Medical Store,Kalamboli Medicals,Kalamboli,19.025139,73.108866,012-345-6789
+Blood Bank,Kalamboli Blood Bank,Kalamboli,19.027879,73.113929,123-456-7890
+Hospital,Ghansoli Super Specialty Hospital,Ghansoli,19.135722,72.992619,234-567-8901
+Medical Store,Ghansoli Medical Supplies,Ghansoli,19.128764,72.996885,345-678-9012
+Blood Bank,Ghansoli Blood Bank,Ghansoli,19.124101,73.005491,456-789-0123
+Hospital,Airoli Maternity Hospital,Airoli,19.158403,72.999364,567-890-1234
+Medical Store,Airoli Medical Supplies,Airoli,19.162527,72.994669,678-901-2345
+Blood Bank,Airoli Blood Bank,Airoli,19.168129,72.996158,789-012-3456
+Hospital,Vashi Women's Hospital,Vashi,19.073981,72.996668,890-123-4567
+Medical Store,Vashi Pharmacy,Vashi,19.068822,72.998775,901-234-5678
+Blood Bank,Vashi Blood Bank,Vashi,19.078432,73.001141,012-345-6789
+Hospital,Sanpada Children's Hospital,Sanpada,19.063985,72.996105,123-456-7890
+Medical Store,Sanpada Medical Supplies,Sanpada,19.067891,72.992918,234-567-8901
+Blood Bank,Sanpada Blood Bank,Sanpada,19.058227,72.999825,345-678-9012
+Hospital,Nerul Orthopedic Hospital,Nerul,19.029514,73.020119,456-789-0123
+Medical Store,Nerul Medical Supplies,Nerul,19.032281,73.016743,567-890-1234
+Blood Bank,Nerul Blood Bank,Nerul,19.025724,73.019569,678-901-2345
+Hospital,Koparkhairane Children's Hospital,Koparkhairane,19.103345,73.002371,789-012-3456
+Medical Store,Koparkhairane Medical Supplies,Koparkhairane,19.106432,72.998953,890-123-4567
+Blood Bank,Koparkhairane Blood Bank,Koparkhairane,19.109772,72.995412,901-234-5678
+Hospital,CBD Belapur Children's Hospital,CBD Belapur,19.018623,73.030754,012-345-6789
+Medical Store,CBD Belapur Medical Supplies,CBD Belapur,19.021948,73.028882,123-456-7890
+Blood Bank,CBD Belapur Blood Bank,CBD Belapur,19.015357,73.034967,234-567-8901
+Hospital,Kharghar Orthopedic Hospital,Kharghar,19.025601,73.060467,345-678-9012
+Medical Store,Kharghar Medical Supplies,Kharghar,19.030299,73.059923,456-789-0123
+Blood Bank,Kharghar Blood Bank,Kharghar,19.022804,73.063874,567-890-1234
+Hospital,Panvel Women's Hospital,Panvel,18.992708,73.122003,678-901-2345
+Medical Store,Panvel Medical Supplies,Panvel,18.995986,73.119129,789-012-3456
+Blood Bank,Panvel Blood Bank,Panvel,18.989382,73.124738,890-123-4567
+Hospital,Mahape Orthopedic Hospital,Mahape,19.126543,73.000781,901-234-5678
+Medical Store,Mahape Medical Supplies,Mahape,19.129844,72.998051,012-345-6789
+Blood Bank,Mahape Blood Bank,Mahape,19.124994,73.002427,123-456-7890
+Hospital,Turbhe Women's Hospital,Turbhe,19.078041,73.020822,234-567-8901
+Medical Store,Turbhe Medical Supplies,Turbhe,19.081663,73.017417,345-678-9012
+Blood Bank,Turbhe Blood Bank,Turbhe,19.085693,73.019792,456-789-0123
+Hospital,Belapur Children's Hospital,Belapur,19.013842,73.042932,567-890-1234
+Medical Store,Belapur Medical Supplies,Belapur,19.016488,73.0412,678-901-2345
+Blood Bank,Belapur Blood Bank,Belapur,19.011986,73.040024,789-012-3456
+Hospital,Rabale Women's Hospital,Rabale,19.140113,73.006682,890-123-4567
+Medical Store,Rabale Medical Supplies,Rabale,19.142834,73.003363,901-234-5678
+Blood Bank,Rabale Blood Bank,Rabale,19.146209,73.006849,012-345-6789
+Hospital,Seawoods Orthopedic Hospital,Seawoods,19.025036,73.016877,123-456-7890
+Medical Store,Seawoods Medical Supplies,Seawoods,19.029061,73.013527,234-567-8901
+Blood Bank,Seawoods Blood Bank,Seawoods,19.022961,73.018702,345-678-9012
+Hospital,Nerul Children's Hospital,Nerul,19.030087,73.018925,456-789-0123
+Medical Store,Nerul Medical Supplies,Nerul,19.034117,73.015623,567-890-1234
+Blood Bank,Nerul Blood Bank,Nerul,19.026857,73.018429,678-901-2345
+Hospital,CBD Belapur Women's Hospital,CBD Belapur,19.01967,73.031786,789-012-3456
+Medical Store,CBD Belapur Medical Supplies,CBD Belapur,19.02245,73.030241,890-123-4567
+Blood Bank,CBD Belapur Blood Bank,CBD Belapur,19.016241,73.034398,901-234-5678
+Hospital,Kalamboli Children's Hospital,Kalamboli,19.021789,73.112931,012-345-6789
+Medical Store,Kalamboli Medical Supplies,Kalamboli,19.025607,73.109486,123-456-7890
+Blood Bank,Kalamboli Blood Bank,Kalamboli,19.028409,73.113198,234-567-8901
+Hospital,Ghansoli Children's Hospital,Ghansoli,19.136982,72.992006,345-678-9012
+Medical Store,Ghansoli Medical Supplies,Ghansoli,19.129824,72.997198,456-789-0123
+Blood Bank,Ghansoli Blood Bank,Ghansoli,19.124789,73.004916,567-890-1234
+Hospital,Airoli Women's Hospital,Airoli,19.157603,73.000092,678-901-2345
+Medical Store,Airoli Medical Supplies,Airoli,19.161789,72.99548,789-012-3456
+Blood Bank,Airoli Blood Bank,Airoli,19.167213,72.996899,890-123-4567
+Hospital,Vashi Orthopedic Hospital,Vashi,19.074929,72.996265,901-234-5678
+Medical Store,Vashi Medical Supplies,Vashi,19.069107,72.998921,012-345-6789
+Blood Bank,Vashi Blood Bank,Vashi,19.079322,73.000625,123-456-7890
+Hospital,Sanpada Maternity Hospital,Sanpada,19.062195,72.995848,234-567-8901
+Medical Store,Sanpada Medical Supplies,Sanpada,19.067015,72.992712,345-678-9012
+Blood Bank,Sanpada Blood Bank,Sanpada,19.057619,72.999673,456-789-0123
